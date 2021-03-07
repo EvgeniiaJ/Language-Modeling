@@ -9,10 +9,10 @@ class LanguageModeling:
     global padded_train_data, train_dict, processed_train_data, processed_train_dict
     global padded_test_data, test_dict, processed_test_data, processed_test_dict
     
-    global pre_processing
     
     def pre_process_data():
         
+        pre_processing = prep()
         padded_train_data = pre_processing.pad_file_data(train_file)
         train_dict = pre_processing.create_dict(padded_train_data)
         processed_train_data = pre_processing.mark_unknown_words(1, padded_train_data, train_dict)
