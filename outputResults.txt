@@ -1,0 +1,40 @@
+The number of Word Types in the training corpus: 41739
+The number of Word Tokens in the training corpus: 2568210
+
+Percentage of word tokens in the test corpus that did not occur in the training: 1.60%
+Percentage of word types in the test corpus that did not occur in the training: 3.60%
+
+Percentage of bigram tokens in the test corpus that did not occur in the training: 20.89%
+Percentage of bigram types in the test corpus that did not occur in the training: 25.32%
+
+Parameters needed for computation of unigram probability:
+Splitted sentence and corresponding values from the dictionary:
+['<s>', 'i', 'look', 'forward', 'to', 'hearing', 'your', 'reply', '.', '</s>']
+[100000, 7339, 613, 474, 53048, 209, 1217, 13, 87894, 100000]
+Total number of tokens in the train dictionary: 2568210
+Fraction for each parameter that is multiplied by one another later:
+[0.03893762581720342, 0.0028576323587245593, 0.000238687646259457, 0.00018456434637354423, 0.02065563174351007, 8.137963795795515e-05, 0.00047387090619536564, 5.061891356236445e-06, 0.03422383683577278, 0.03893762581720342]
+bigram is chosen
+Parameters needed for computation of bigram probability:
+Sentence's bigrams and corresponding values from the dictionary:
+['<s> i', 'i look', 'look forward', 'forward to', 'to hearing', 'hearing your']
+[2006, 15, 34, 100, 6]
+[100000, 7339, 613, 474, 53048]
+Fraction for each parameter that is multiplied by one another later:
+[0.02006, 0.0020438751873552256, 0.05546492659053834, 0.2109704641350211, 0.00011310511235107827]
+Returning Probability without log: 5.426347926051259e-11
+after probability computation 0
+Bigram Probability for the given sentence: undefined 
+
+smoothed bigram is chosen
+after probability computation 5.728997390142119e-30
+Bigram Smoothed Probability for the given sentence: -97.13956016607364 
+
+Computation of perplexity for sentence 'I look forward to hearing your reply .'
+Perplexity of the given sentence under Unigram: 721.0113746656128
+Perplexity of the given sentence under Bigram: undefined
+Perplexity of the given sentence under Bigram with Add-One Smoothing: 839.831456763261 
+
+Perplexity of the entire test corpus under unigram: 999.9585577747536
+Perplexity of the entire test corpus under bigram: undefined
+Perplexity of the entire test corpus under bigram with Add-One Smoothing: 1364.7505184528952
